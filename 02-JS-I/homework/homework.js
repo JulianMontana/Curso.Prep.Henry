@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código: 
-  return "str";
+  return str;
   
 }
 
@@ -69,7 +69,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x=y) {
+  if (x===y) {
     return true;
 
   }
@@ -81,7 +81,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ("str1"="str2"){
+  if (str1.lenght=str2.lenght){
     return true;
   
   }
@@ -292,7 +292,7 @@ function esVocal(letra){
     return "Es vocal"
   
   }
-  else if (letra.lenght !==1){
+  else if (letra.lenght >1){
     return "Dato incorrecto"
   }
   return "Dato incorrecto"
